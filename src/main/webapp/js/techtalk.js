@@ -2,5 +2,5 @@
  * 
  */
 $document(function(){
-	alert("Document Loaded ")
+	alert("Document Loaded")
 })
