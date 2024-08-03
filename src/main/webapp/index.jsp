@@ -12,17 +12,18 @@
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	crossorigin="anonymous">
-<link href=".css/teachtalk.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<style>
-	 .banner-background{
-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 78% 93%, 50% 100%, 21% 93%, 0 100%, 0% 35%, 0 0);	
- }
-	</style>
+
+<style>
+.banner-background {
+	clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 78% 93%, 50% 100%, 21% 93%,
+		0 100%, 0% 35%, 0 0);
+}
+</style>
 </head>
 <body>
+
 	<%@include file="normal_navbar.jsp"%>
 
 	<!-- Banner -->
@@ -43,8 +44,8 @@ clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 78% 93%, 50% 100%, 21% 9
 				<button class="btn btn-outline-light btn-lg">
 					<span class="fa fa-external-link"></span> Start! Its Free
 				</button>
-				<a href="login_page.jsp" class="btn btn-outline-light btn-lg">
-					<span class="fa fa-user-circle fa-spin"></span> Login
+				<a href="login_page.jsp" class="btn btn-outline-light btn-lg"> <span
+					class="fa fa-user-circle fa-spin"></span> Login
 				</a>
 
 			</div>
@@ -87,8 +88,8 @@ clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 78% 93%, 50% 100%, 21% 9
 				</div>
 			</div>
 		</div>
-		
-		
+
+
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">
@@ -124,6 +125,7 @@ clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 78% 93%, 50% 100%, 21% 9
 			</div>
 		</div>
 	</div>
+
 
 
 
