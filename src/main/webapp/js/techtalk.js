@@ -1,6 +1,7 @@
 /**
  * 
  */
-$document(function(){
-	alert("Document Loaded")
-})
+$(document).ready(function() {
+    // Your code goes here
+    console.log("Document is ready!");
+});

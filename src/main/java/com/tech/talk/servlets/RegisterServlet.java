@@ -61,12 +61,12 @@ public class RegisterServlet extends HttpServlet {
 				user.setAbout(request.getParameter("about"));
 				user.setGender(request.getParameter("gender"));
 				UserDao dao=new UserDao(ConnectionProvider.getConnection());
-			
+			    Thread.sleep(2000);
 				if(dao.saveUser(user)) {
-					out.println("Done !!!!");
+					out.println("Done");
 				}
 				else {
-					out.print("Error !!");
+					out.print("Error !!"); 
 				}
 			}
 			
